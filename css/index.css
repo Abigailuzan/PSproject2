@@ -1,0 +1,17 @@
+footer{
+    background-color: tan;
+    margin: 0;
+}
+.tables_icons{
+    margin-left: 680px;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+.background_photo{
+    background-image:linear-gradient(
+    rgba(255,255,255,0.5),rgba(255,255,255,0.5)
+    ), url("/image/Depositphotos_10984109_s-2019.jpg");
+}
