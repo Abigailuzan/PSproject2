@@ -1,0 +1,80 @@
+/* Button style */
+.colorful-button {
+    background-color: hsl(36, 93%, 57%); /* Green background */
+    border: none;
+    color: hwb(177 37% 1%);;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+.colorful-button:hover {
+    background-color: hsl(36, 93%, 57%); /* Darker green */
+}
+
+/* Form label */
+label {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+/* Form output */
+.output {
+    font-size: 18px;
+}
+
+/* Header style */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: hwb(177 37% 1%); /* Light grey */
+}
+
+/* Page title */
+.hellow {
+    font-size: 45px;
+    color: hsl(34, 83%, 55%); /* Green */
+}
+
+/* Form container */
+.div_form {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    background-color: hwb(177 37% 1%);; /* Light grey */
+    border-radius: 10px;
+}
+
+/* Table style */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #21f4fc; /* Green border */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Table header */
+th {
+    background-color: hsl(325, 82%, 67%); /* Green */
+    color: hwb(177 37% 1%);;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: hwb(177 37% 1%);; /* Light grey */
+}
+
+
+
