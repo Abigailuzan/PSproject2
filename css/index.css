@@ -1,17 +1,117 @@
-footer{
-    background-color: tan;
-    margin: 0;
-}
-.tables_icons{
-    margin-left: 680px;
-}
-.icons{
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-}
-.background_photo{
+body{
     background-image:linear-gradient(
-    rgba(255,255,255,0.5),rgba(255,255,255,0.5)
-    ), url("/image/Depositphotos_10984109_s-2019.jpg");
+    rgba(255,255,255,0.3),
+    rgba(255,255,255,0.3)
+    ) ,url("https://www.merkaz-shaked.co.il/wp-content/uploads/2019/07/Depositphotos_10984109_s-2019.jpg");
+    /*background-size:100%;*/
+    font-family: Arial, serif ;
+    background-attachment: scroll;
+    background-position: top 0;
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center; /* מרכז תוכן ה-header */
+    padding: 50px;
+    color: rgb(52, 92, 92); /* צבע טקסט לבן */
+  /*  border-bottom: 4px solid #17a2b8; /* קו תחתון כחול */
+    background-attachment: scroll;
+    background-position: top 0;
+    background-size: cover;
+    font-weight: bold;
+}
+
+.titles {
+    font-size: 48px; /* גודל כותרת ראשית */
+    margin-bottom: 10px; /* מרווח מתחת לכותרת ראשית */
+}
+
+.subtitles {
+    font-size: 24px; /* גודל כותרת משנית */
+    color: rgb(52, 92, 92); /* צבע כותרת משנית */
+    font-weight: bold;
+}
+
+/* עיצוב התוכן הראשי של הדף */
+main {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    position: relative;
+    font-family: Arial, sans-serif; /* גופן רגיל */
+    background-color: rgba(224, 245, 245,0.8);
+    color: rgb(52, 92, 92);
+    padding-top: 30px;
+    padding-bottom: 25px;
+ /* margin-bottom: 15px;*/
+}
+
+.log_in_button {
+    background-color: #218838; /* רקע ירוק */
+    color: #fff; /* צבע טקסט לבן */
+    padding: 15px 100px; /* מרווחים פנימיים בכפתור */
+    font-size: 20px; /* גודל טקסט */
+    border: none; /* ללא גבול */
+    cursor: pointer; /* סמן יד */
+    /*border-radius: 5px; /* פינות מעוגלות */
+    margin-bottom: 19px; /* מרווח מתחת לכפתור */
+    transition: background-color 0.5s; /* אנימציה עבור שינויים ברקע */
+}
+
+.log_in_button:hover {
+    background-color: goldenrod; /* רקע ירוק כהה */
+    transform: scale(1.1); /* שינוי גודל ב-hover */
+    transition: transform 0.3s ease-in;
+
+
+}
+
+.register {
+    color: #007bff; /* צבע טקסט כחול */
+    text-decoration: none; /* ללא קו תחתון */
+    display: block; /* כל קישור על ידי עצמו */
+    margin-top: 10px; /* מרווח מעל לקישור */
+    font-size: 15px; /* גודל טקסט */
+}
+
+/* עיצוב ה-footer של הדף */
+footer {
+    /*background-color: #343a40; /* רקע אפור כהה */
+    color: #fff; /* צבע טקסט לבן */
+    text-align: center; /* מרכז תוכן ה-footer */
+    padding: 20px;
+    position: absolute; /* מופיע בתחתית העמוד */
+    width: 100%; /* רוחב מלא */
+    bottom: 0; /* תחתית העמוד */
+   /* border-top: 4px solid #17a2b8;*/
+}
+
+.tables_icons {
+    margin-top: 20px; /* מרווח מעל לטבלה */
+    display: flex; /* עימוד איקונים */
+    justify-content: center; /* מרכז איקונים */
+}
+
+.tables_icons td {
+    padding: 0 20px; /* מרווח מצדדים בתאים */
+}
+
+.icons {
+    width: 20px; /* רוחב סמלים */
+    height: 20px; /* גובה סמלים */
+    border-radius: 50%; /* סמלים מעוגלים */
+    margin: 0 0; /* מרווח מסביב לסמלים */
+    transition: transform 0.3s ease-in-out; /* אנימציה עבור שינויים ב-transform */
+}
+
+.icons:hover {
+    transform: scale(1.2); /* שינוי גודל ב-hover */
+}
+
+.rights {
+    margin-top: 20px; /* מרווח מעל לכתובת זכויות יוצרים */
+    color: rgb(52, 92, 92);
 }

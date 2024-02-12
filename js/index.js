@@ -1,3 +1,3 @@
 function logIN(){
-    this.location.href = '/html/logIN.html';
+    location.href = 'log_in.html';
 }

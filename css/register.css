@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    padding: 0;
+    background-image: linear-gradient(
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.3)
+    ), url("https://www.merkaz-shaked.co.il/wp-content/uploads/2019/07/Depositphotos_10984109_s-2019.jpg");
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.register {
+    background-color: white;
+    padding:10px 60px;
+    margin:20px auto;
+    max-width: 400px;
+    box-shadow: 20px 20px 20px 20px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.register form {
+    background-color: rgba(255, 255, 255, 0.5);
+    /*border-radius: 50px;*/
+    text-align: center;
+    /*position: relative;*/
+    overflow: hidden;
+}
+
+h1 {
+    color: goldenrod;
+    font-size: 30px;
+    margin-bottom: 0;
+    margin-left: 25px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+h2{
+    margin: 5px 0;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #4a148c;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #eceff1;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #218838;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: goldenrod;
+}
+
+.go_back {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #218838;
+    font-size: 16px;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.go_back:hover{
+    background-color: goldenrod;
+}
+
+a {
+    color: #8e24aa;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+    display: block;
+    margin-top: 20px;
+}
+
+a:hover {
+    color: #6a1b9a;
+}
