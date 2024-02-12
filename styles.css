@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif; /* Default font family */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+header {
+    position: relative;
+    height: 100px; /* Adjust height as needed */
+    background-color: #ffcc00; /* Yellow header background */
+    color: white; /* White header text */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: #ff6666; /* Pink navigation background */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff; /* White navigation text */
+    background-color: #ff6666; /* Pink navigation background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif; /* Change font for navigation link */
+    display: inline-flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+nav ul li a:hover {
+    background-color: #ff3333; /* Lighter pink navigation background on hover */
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.game {
+    background-color: #66ff66; /* Light green game section background */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.game img {
+    width: 100%;
+}
+
+.game h2 {
+    color: #333; /* Dark gray game title text */
+    font-family: 'Arial Black', sans-serif; /* Change font for game title */
+}
+
+.game p {
+    color: #333; /* Dark gray game description text */
+    font-family: 'Arial', sans-serif; /* Change font for game description */
+}
+button {
+    background-color: #ff6666; /* Pink button background */
+    color: #fff; /* White button text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Arial', sans-serif; /* Change font for button */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+button:hover {
+    background-color: #ff3333; /* Lighter pink button background on hover */
+}
+
+footer {
+    background-color: #ffcc00; /* Yellow footer background */
+    color: #fff; /* White footer text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    header {
+        height: 80px; /* Adjust header height for smaller screens */
+    }
+    
+    .game {
+        width: calc(50% - 40px); /* Two games per row for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        height: 60px; /* Further adjust header height for even smaller screens */
+    }
+
+    .game {
+        width: calc(100% - 40px); /* Single game per row for smallest screens */
+    }
+}
