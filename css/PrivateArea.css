@@ -1,0 +1,77 @@
+
+.colorful-button {
+    background-color: hsl(36, 93%, 57%); 
+    border: none;
+    color: hwb(177 37% 1%);;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.colorful-button:hover {
+    background-color: hsl(36, 93%, 57%); 
+}
+
+
+label {
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+.output {
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: hwb(177 37% 1%); /* Light grey */
+}
+
+
+.hellow {
+    font-size: 45px;
+    color: hsl(34, 83%, 55%);
+}
+
+
+.div_form {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    background-color: hwb(177 37% 1%);; 
+    border-radius: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 2px solid #21f4fc; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+th {
+    background-color: hsl(325, 82%, 67%); 
+    color: hwb(177 37% 1%);;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: hwb(177 37% 1%);; 
+}
+
+
+

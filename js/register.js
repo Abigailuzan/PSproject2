@@ -49,6 +49,10 @@ function createAccount(){
         phoneNumber: document.getElementById('phone_number').value,
         email: document.getElementById('email').value,
         password: document.getElementById('password').value,
+
+        score: 0,
+        scroe2: 0,
+        actions: [],
         creationDate: new Date()
     }
     // Set user data in localStorage using email as unique identifier
